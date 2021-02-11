@@ -4,7 +4,7 @@
 int main()
 {
 	int c,r,count;
-	char in[5];
+	char in[4];
 	setlocale(LC_ALL, "ru");
 	std::ofstream fout;
 	std::ifstream fin;
