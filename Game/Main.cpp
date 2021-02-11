@@ -25,8 +25,7 @@ int main()
 			}
 			--count;
 			fin.close();
-			//r = rand() % count + 1;
-			r = 1;
+			r = rand() % count + 1;
 			fin.open("variants.txt");
 			for (size_t i = 0; i < r; i++)
 			{
